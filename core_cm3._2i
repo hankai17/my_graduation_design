@@ -1,0 +1,5 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I.\Lib\inc -I.\System -I.\USR
+-I C:\Keil\ARM\RV31\INC
+-I C:\Keil\ARM\CMSIS\Include
+-I C:\Keil\ARM\Inc\ST\STM32F10x
+-DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -o .\core_cm3.o --omf_browse .\core_cm3.crf --depend .\core_cm3.d --feedback ".\LY-STM32.fed" "System\core_cm3.c"

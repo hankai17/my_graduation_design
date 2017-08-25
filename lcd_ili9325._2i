@@ -1,0 +1,5 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I.\Lib\inc -I.\System -I.\USR
+-I C:\Keil\ARM\RV31\INC
+-I C:\Keil\ARM\CMSIS\Include
+-I C:\Keil\ARM\Inc\ST\STM32F10x
+-DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -o .\lcd_ili9325.o --omf_browse .\lcd_ili9325.crf --depend .\lcd_ili9325.d --feedback ".\LY-STM32.fed" "USR\lcd_ILI9325.c"

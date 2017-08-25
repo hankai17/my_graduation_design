@@ -1,0 +1,16 @@
+--create .\LY-STM32.lib
+.\startup_stm32f10x_hd.o
+.\main.o
+.\pbdata.o
+.\stm32f10x_it.o
+.\stm32f10x_gpio.o
+.\stm32f10x_rcc.o
+.\misc.o
+.\stm32f10x_exti.o
+.\stm32f10x_tim.o
+.\stm32f10x_usart.o
+.\stm32f10x_bkp.o
+.\stm32f10x_pwr.o
+.\stm32f10x_rtc.o
+.\core_cm3.o
+.\system_stm32f10x.o

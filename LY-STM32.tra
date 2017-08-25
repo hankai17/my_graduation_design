@@ -1,0 +1,30 @@
+*** Creating Trace Output File 'LY-STM32.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup_stm32f10x_hd.o"'
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"pbdata.o"'
+### List of Objects: adding '"stm32f10x_it.o"'
+### List of Objects: adding '"stm32f10x_gpio.o"'
+### List of Objects: adding '"stm32f10x_rcc.o"'
+### List of Objects: adding '"misc.o"'
+### List of Objects: adding '"stm32f10x_exti.o"'
+### List of Objects: adding '"stm32f10x_tim.o"'
+### List of Objects: adding '"stm32f10x_usart.o"'
+### List of Objects: adding '"core_cm3.o"'
+### List of Objects: adding '"system_stm32f10x.o"'
+### ADS-LD Command completed:
+--device DARMSTM "startup_stm32f10x_hd.o" "main.o" "pbdata.o" "stm32f10x_it.o" "stm32f10x_gpio.o" "stm32f10x_rcc.o" "misc.o" "stm32f10x_exti.o" "stm32f10x_tim.o" "stm32f10x_usart.o" "core_cm3.o" "system_stm32f10x.o" --strict --scatter "LY-STM32.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\LY-STM32.map" -o "LY-STM32.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'LY-STM32.axf'
+### ADS-LD Command File: 'LY-STM32.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'LY-STM32.lnp', Handle=0x00000390
+### Writing '.lnp' file
+### ADS-LD Command file 'LY-STM32.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
